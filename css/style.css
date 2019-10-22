@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+.container {
+    margin: 0 200px 0 200px ;
+}
+
 nav {
     height:70px;
     display: flex;
@@ -126,3 +130,10 @@ footer {
     display: inline-block;
     width: 390px;
   }
+
+  /* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .container {
+        margin: 0;
+    }
+}
